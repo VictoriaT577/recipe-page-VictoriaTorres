@@ -1,0 +1,339 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: #fafafa;
+  margin-bottom: 354px;
+}
+
+.encabezado__titulo {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.99px;
+  margin-top: 30px;
+  margin-bottom: 6px;
+  margin-left: 23px;
+}
+
+.encabezado__parrafo {
+  font-weight: 500;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 14.63px;
+  color: #4f4f4f;
+  width: 300px;
+}
+
+.encabezado__imagen {
+  width: 352px;
+  height: 213.83px;
+  border-radius: 12px;
+}
+.encabezado__imagen-contenedor {
+  padding: 10px;
+  padding-top: 23px;
+}
+
+.encabezado-icono {
+  color: #c4c4c4;
+  transform: rotate(90deg);
+}
+
+.contenedor__cheesecake {
+  display: flex;
+  justify-content: center;
+}
+
+.encabezado-icono__contenedor {
+  margin-right: 5px;
+}
+
+/*/Receta/*/
+
+.contenedor__receta-icono {
+  color: #f2994a;
+}
+
+.receta__parrafo1 {
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 9.75px;
+}
+
+.receta__parrafo2 {
+  color: #f2994a;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12.19px;
+}
+
+.contenedor__receta {
+  margin-inline: 12px;
+}
+
+/*/tiempos-receta/*/
+
+.contenedor-tiempos__recetaicono {
+  display: flex;
+  gap: 14px;
+}
+.tiempos-receta__preparacion-tiempos {
+  font-weight: 700;
+  font-size: 8px;
+  line-height: 9.75px;
+  color: #bdbdbd;
+}
+.tiempos-receta__preparacion-tiempo-minutos {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12.19px;
+  color: #333333;
+}
+.tiempos-receta__reloj {
+  color: #4f4f4f;
+  width: 14.17px;
+  height: 14.17px;
+}
+
+.contenido-tiempo__hora-preparacion {
+  display: flex;
+  gap: 44px;
+  margin-top: 38px;
+}
+
+.contenedor-receta__parrafos-icono {
+  display: flex;
+}
+
+.contenedor__iconos {
+  background-color: lightblue;
+}
+
+/*/ingredientes/*/
+
+.ingredientes {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.99px;
+  color: #333333;
+  margin-bottom: 7px;
+}
+.ingredientes__galleta-p {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 21.33px;
+  color: #333333;
+  font-style: italic;
+}
+
+.contenedor-ingredientes__galleta {
+  margin-top: 40px;
+}
+
+/*/ingredientes-graham/*/
+
+.rectangulo {
+  min-width: 20px;
+  height: 21px;
+  border-radius: 4px;
+  border: 1px solid #828282;
+}
+
+.contenedor-receta-rectangulo {
+  display: flex;
+  gap: 12px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  flex-shrink: 0;
+}
+
+/*/Cheesecake-ingredientes/*/
+
+.titulo-Cheesecake__receta {
+  font-family: "Playfair Display";
+  font-weight: 400;
+  font-style: italic;
+  font-size: 18px;
+  line-height: 23.99px;
+}
+
+/*/instrucciones/*/
+
+.Instrucciones-titulo {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.99px;
+  color: #333333;
+}
+
+.rectangulo-naranja {
+  background: #f2994a;
+  width: 57px;
+  height: 29px;
+  border-radius: 4px;
+}
+.rectangulo-naranja2 {
+  background: #f2994a;
+  width: 27px;
+  height: 29px;
+  border-radius: 4px;
+}
+.uno-rectangulo {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.99px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -5px;
+}
+
+.dos-rectangulo {
+  font-family: "Playfair Display";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.99px;
+  color: #ffffff;
+  text-align: center;
+  margin-top: -5px;
+}
+.texto-grande__naranja {
+  width: 244px;
+}
+.texto-grande__naranja6 {
+  width: 244px;
+}
+.contenedor-receta-rectangulo6 {
+  display: flex;
+  gap: 12px;
+}
+
+/*/link-pagina__cheesecake/*/
+
+.link-pagina__cheesecake {
+  font-weight: 400;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 18px;
+  color: #bdbdbd;
+  padding-left: 12px;
+}
+
+.creadora {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #828282;
+}
+.nombre {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 17.07px;
+  color: #5f5f5f;
+}
+.contenedor-nombre {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+  box-sizing: border-box;
+}
+
+/*/MEDIAQ/*/
+
+@media (min-width: 1200px) {
+  .contenedor__receta {
+    display: flex;
+    width: 1074px;
+  }
+
+  .receta__iconos {
+    width: 166px;
+    border: rgba(255, 255, 255, 1);
+    padding: 0.5rem;
+    border-radius: 12px;
+    /* Order cambia el elemento a la segunda posición */
+    order: 2;
+    height: 246px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 54px;
+  }
+  .contenido-tiempo__hora-preparacion {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .encabezado__titulo {
+    font-size: 48px;
+    line-height: 63.98px;
+    margin-top: 30px;
+    margin-left: 243px;
+  }
+  .encabezado__parrafo {
+    font-size: 14px;
+    line-height: 17.07px;
+    width: 587px;
+  }
+  .contenedor__cheesecake {
+    display: flex;
+    margin-right: 101px;
+  }
+  .encabezado__imagen {
+    width: 969px;
+    height: 470px;
+    display: block;
+    margin: auto;
+  }
+  .contenedor-ingredientes__galleta {
+    margin-top: 40px;
+  }
+
+  .ingredientes {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31.99px;
+  }
+  .ingredientes__galleta-p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23.99px;
+  }
+  .contenedor-receta-rectangulo {
+  }
+  .titulo-Cheesecake__receta {
+  }
+  .Instrucciones-titulo {
+  }
+  .contenedor-receta-rectangulo6 {
+    display: flex;
+    gap: 12px;
+  }
+  .link-pagina__cheesecake {
+    width: max-content;
+    margin-left: -49px;
+  }
+  .rectangulo-naranja {
+    width: 28px;
+  }
+  .contenedor-tipo__todo {
+    width: 970px;
+    margin-left: 107px;
+  }
+  .texto__rectangulos {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 25px;
+  }
+}
