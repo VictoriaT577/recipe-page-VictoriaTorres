@@ -307,18 +307,8 @@ body {
     line-height: 23.99px;
   }
   .contenedor-receta-rectangulo {
-  }
-  .titulo-Cheesecake__receta {
-  }
-  .Instrucciones-titulo {
-  }
-  .contenedor-receta-rectangulo6 {
     display: flex;
     gap: 12px;
-  }
-  .link-pagina__cheesecake {
-    width: max-content;
-    margin-left: -49px;
   }
   .rectangulo-naranja {
     width: 28px;
@@ -328,8 +318,10 @@ body {
     margin-left: 107px;
   }
   .texto__rectangulos {
-    font-weight: 700;
     font-size: 16px;
     line-height: 25px;
+  }
+  .texto__rectangulos--negrita {
+    font-weight: 700;
   }
 }
