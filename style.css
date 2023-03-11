@@ -175,15 +175,17 @@ body {
 
 .rectangulo-naranja {
   background: #f2994a;
-  width: 57px;
+  width: 27px;
   height: 29px;
   border-radius: 4px;
+  min-width: 30px;
 }
 .rectangulo-naranja2 {
   background: #f2994a;
   width: 27px;
   height: 29px;
   border-radius: 4px;
+  min-width: 30px;
 }
 .uno-rectangulo {
   font-family: "Playfair Display";
@@ -204,12 +206,7 @@ body {
   text-align: center;
   margin-top: -5px;
 }
-.texto-grande__naranja {
-  width: 244px;
-}
-.texto-grande__naranja6 {
-  width: 244px;
-}
+
 .contenedor-receta-rectangulo6 {
   display: flex;
   gap: 12px;
@@ -223,7 +220,6 @@ body {
   font-style: italic;
   line-height: 18px;
   color: #bdbdbd;
-  padding-left: 12px;
 }
 
 .creadora {
